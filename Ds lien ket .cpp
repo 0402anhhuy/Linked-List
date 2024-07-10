@@ -49,7 +49,7 @@ void insertLast(node &a, int x){
 	node tmp = makeNode(x);
 	if(a == NULL) a = tmp;
 	else{
-		// Tao 1 node tro den phan tu dau tiên cua ds
+		// Tao 1 node tro den phan tu dau tiï¿½n cua ds
 		node p = a;
 		// Duyet ds
 		while(p -> next != NULL){
@@ -66,7 +66,7 @@ void insertMiddle(node &a, int x, int pos){
 		cout << "Vi tri chen khong hop le!\n";
 	}
 	if(n == 1){
-		inserFirst(a, x);
+		insertFirst(a, x);
 		return;
 	}
 	else if(n == pos + 1){
