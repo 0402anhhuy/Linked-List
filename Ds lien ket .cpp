@@ -163,7 +163,7 @@ int main(){
 		if(option == 1){
 			int x;
 			cout << "Nhap gia tri can chen: "; cin >> x;
-			inserFirst(head, x);
+			insertFirst(head, x);
 		}
 		else if(option == 2){
 			int x;
